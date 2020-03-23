@@ -1,0 +1,18 @@
+# default.custom.yaml
+# save it to:
+#   ~/.config/ibus/rime  (linux)
+#   ~/Library/Rime       (macos)
+#   %APPDATA%\Rime       (windows)
+
+patch:
+  schema_list:
+    - schema: double_pinyin # 自然碼雙拼
+    - schema: wubi86 # 五笔86
+  ascii_composer/good_old_caps_lock: true
+  ascii_composer/switch_key:
+    Caps_Lock: commit_code
+    Control_L: noop
+    Control_R: noop
+    # 按下左 shift 英文字符直接上屏，不需要再次回车，输入法保持英文状态
+    Shift_L: commit_code
+    Shift_R: noop
