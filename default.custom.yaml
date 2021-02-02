@@ -8,6 +8,7 @@ patch:
   schema_list:
     - schema: wubi86 # 五笔86
     - schema: double_pinyin # 自然碼雙拼
+    - schema: wubi_trad  # 五笔-简入繁出
   ascii_composer/good_old_caps_lock: true
   ascii_composer/switch_key:
     Caps_Lock: commit_code

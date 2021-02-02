@@ -82,7 +82,7 @@ simplifier:
   option_name: zh_trad
 
 punctuator:
-  import_preset: default
+  import_preset: symbols
 
 key_binder:
   import_preset: default
